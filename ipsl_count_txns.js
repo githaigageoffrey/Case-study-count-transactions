@@ -1,5 +1,4 @@
 const fs = require('fs');
-
 // Function to count transactions based on sender and receiver
 function countTransactions(logFilePath, sender, receiver, ignoreUniqueness = 0) {
     // Read the log file
